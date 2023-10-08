@@ -35,3 +35,13 @@ for(delBtn of delBtns){
 }
 
 // TODO : event delegation to be added
+
+ul.addEventListener("click" , function(event){
+    
+    if(event.target.nodeName== "BUTTON"){
+       let listIem= event.target.parentElement;
+       listIem.remove();
+       console.log(listIem)
+    }
+    console.log("button clicked!!");
+})
