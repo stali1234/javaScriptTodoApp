@@ -67,7 +67,34 @@
         .task-item button:hover {
             background-color: #d32f2f;
         }
-        
+        .task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* CSS for delete button */
+.delete {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.delete:hover {
+    background-color: #d32f2f;
+}
+
+/* Add some margin between the task item text and delete button */
+.task-item .delete {
+    margin-left: 10px;
+}
     </style>
 </head>
 <body>
@@ -77,11 +104,7 @@
             <input id="taskInput" type="text" class="todo-input" placeholder="Enter your task" style="display: inline-block;">
             <button class="add-button" style="display: inline-block;">Add Task</button>
         </div>
-        <ul id="taskList" class="task-list">
-            <li> Eat</li>
-            <li> sleep</li>
-
-        </ul>
+        <ul id="taskList" class="task-list"></ul>
     </div>
 
     <script src="app.js"></script>
