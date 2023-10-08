@@ -21,4 +21,7 @@ This is a basic Todo App project that allows you to create tasks and delete them
 
 ## Contributing
 
+Sample Image :
+![image](https://github.com/stali1234/javaScriptTodoApp/assets/60595536/808eb975-16ce-49b5-9ebd-fc36c6431f2f)
+
 If you would like to contribute to this project, feel free to fork the repository and submit a pull request.
